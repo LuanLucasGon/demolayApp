@@ -1,0 +1,91 @@
+# ============================
+# Ferramentas de IA
+# ============================
+.claude/
+CLAUDE.md
+.codex/
+.gemini/
+GEMINI.md
+AGENTS.md
+.cursor/
+.windsurf/
+
+# ============================
+# Credenciais sensíveis
+# ============================
+**/firebase-service-account.json
+**/*firebase-adminsdk*.json
+**/*.pem
+**/*.key
+.env
+.env.*
+!.env.example
+
+# ============================
+# Backend (Java / Maven / Spring Boot)
+# ============================
+backend/**/target/
+backend/**/.mvn/wrapper/maven-wrapper.jar
+backend/**/*.class
+backend/**/*.jar
+!backend/**/.mvn/wrapper/maven-wrapper.properties
+backend/**/HELP.md
+backend/**/.factorypath
+backend/**/application-local.yml
+backend/**/application-local.properties
+
+# ============================
+# Frontend (Flutter / Dart)
+# ============================
+frontend/**/.dart_tool/
+frontend/**/.flutter-plugins
+frontend/**/.flutter-plugins-dependencies
+frontend/**/.pub-cache/
+frontend/**/.pub/
+frontend/**/build/
+frontend/**/*.g.dart
+frontend/**/*.freezed.dart
+
+# Android (dentro do projeto Flutter)
+frontend/**/android/local.properties
+frontend/**/android/**/*.keystore
+frontend/**/android/**/*.jks
+frontend/**/android/key.properties
+frontend/**/android/.gradle/
+frontend/**/android/captures/
+frontend/**/android/gradlew
+frontend/**/android/gradlew.bat
+frontend/**/android/gradle-wrapper.jar
+
+# iOS (dentro do projeto Flutter)
+frontend/**/ios/Flutter/Generated.xcconfig
+frontend/**/ios/Flutter/flutter_export_environment.sh
+frontend/**/ios/Pods/
+frontend/**/ios/.symlinks/
+frontend/**/ios/Runner.xcworkspace/
+
+# ============================
+# IDEs e Editores
+# ============================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.vs/
+*.swp
+*.swo
+
+# ============================
+# Sistema Operacional
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Logs e temporários
+# ============================
+*.log
+*.tmp
+.history/
