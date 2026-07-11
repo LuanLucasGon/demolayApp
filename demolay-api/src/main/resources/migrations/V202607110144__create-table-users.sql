@@ -1,8 +1,9 @@
 CREATE TABLE users (
     id                  VARCHAR(40)  NOT NULL,
-    demolay_id          VARCHAR(20),
+    demolay_id          VARCHAR(20)  NOT NULL,
     cpf                 VARCHAR(14)  NOT NULL,
     name                VARCHAR(255) NOT NULL,
+    email               VARCHAR(255) NOT NULL,
     birth_date          DATE,
     created_at          TIMESTAMP    NOT NULL,
     updated_at          TIMESTAMP,
