@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: demolayapp-db
+    environment:
+      POSTGRES_DB: demolayapp
+      POSTGRES_USER: demolay
+      POSTGRES_PASSWORD: demolay123
+    ports:
+      - "5432:5432"
+    volumes:
+      - demolayapp_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  demolayapp_data:
